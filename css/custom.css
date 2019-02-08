@@ -85,3 +85,17 @@ h1, h2, h3, h4, h5, h6 {
 .fa-twitter{
     color: #1da1f2;
 }
+
+.circles{
+    display: block;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.5;
+    z-index: -1;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.52);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.52);
+    box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.52);
+}
